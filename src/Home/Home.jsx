@@ -99,6 +99,7 @@ export default function Home() {
                   <input
                     type={'checkbox'}
                     defaultChecked={v.itemCompletionStatus}
+                    disabled={true}
                   />
                 </div>
               ))}

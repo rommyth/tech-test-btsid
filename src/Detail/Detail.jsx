@@ -73,6 +73,7 @@ export default function TestTwo() {
                 <input
                   type="checkbox"
                   defaultChecked={item.itemCompletionStatus}
+                  disabled={true}
                 />
               </div>
             ))}
